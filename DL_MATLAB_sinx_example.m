@@ -51,8 +51,8 @@ figure(1)
 grid on
 xlabel("x")
 ylabel("y")
-legend(["model predictions", "sin(2*pi*x)"])
 plot(x_test_points, y_predictions)
 hold on 
 plot(x_test_points, y_test_points)
+legend(["model predictions", "sin(2*pi*x)"])
 hold off
